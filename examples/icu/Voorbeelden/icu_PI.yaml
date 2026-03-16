@@ -6,8 +6,8 @@ headless: false
 batches:
 - grid:
   - beds.slots:
-      range: [190, 210]
-      step: 5
+      range: [180, 210]
+      step: 10
 runs_per_batch: 10
 
 # 'generators' can generate data of any defined data class.
@@ -80,7 +80,7 @@ constants:
       A: ~
       B: 2
       C: 4
-  - end_enter_time: 200
+  - end_enter_time: 500
 
 # For Resources, Queues and Quantities, plots with identical 'data_id' will be put in one figure;
 #   'plot_options' can include any options for the plotly figure.
