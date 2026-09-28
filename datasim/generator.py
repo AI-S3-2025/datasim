@@ -1,6 +1,6 @@
 from typing import Any, Dict, Final, Optional, Tuple, Type
 from typing_extensions import Literal
-from git import List
+from typing import List
 import numpy as np
 
 from .logging import log
